@@ -1,0 +1,36 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 5px 0;
+
+  width: 100%;
+}
+
+.logo-container {
+  display: flex;
+
+  img {
+    width: 100px;
+    height: 32px;
+  }
+}
+
+.search-container {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+
+  margin: auto;
+
+  input {
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    padding: 8px 15px;
+    background-color: lightgray;
+    outline: none;
+    
+  }
+}
